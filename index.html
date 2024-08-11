@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>title</title>
+</head>
+<body>
+  <input id="m"></input>
+  <p style="margin-top: 50px; font-size: 144px; margin-left: 10px;" id="n"></p>
+  <script>
+    document.getElementById('m').addEventListener(
+      'input',
+      () => {document.getElementById('n').innerHTML = document.getElementById('m').value}
+    )
+  </script>
+</body>
+</html>
